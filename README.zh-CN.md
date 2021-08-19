@@ -54,7 +54,7 @@
 
 - 在 `tsconfig.json` 中设置 Cactbot 的路径
 
-  ```json
+  ```jsonc
   "compilerOptions": {
     // ...
     "baseUrl": ".",
