@@ -18,6 +18,7 @@ export default {
   timelineReplace: [
     {
       locale: "de",
+      missingTranslations: true,
       replaceSync: {
         'You bid farewell to the striking dummy': 'Du winkst der Trainingspuppe zum Abschied zu',
         'You bow courteously to the striking dummy': 'Du verbeugst dich hochachtungsvoll vor der Trainingspuppe',
@@ -31,6 +32,7 @@ export default {
     },
     {
       locale: "fr",
+      missingTranslations: true,
       replaceSync: {
         'You bid farewell to the striking dummy': 'Vous faites vos adieux au mannequin d\'entraînement',
         'You bow courteously to the striking dummy': 'Vous vous inclinez devant le mannequin d\'entraînement',
@@ -44,6 +46,7 @@ export default {
     },
     {
       locale: "ja",
+      missingTranslations: true,
       replaceSync: {
         'You bid farewell to the striking dummy': '.*は木人に別れの挨拶をした',
         'You bow courteously to the striking dummy': '.*は木人にお辞儀した',
@@ -57,6 +60,7 @@ export default {
     },
     {
       locale: "cn",
+      missingTranslations: true,
       replaceSync: {
         'You bid farewell to the striking dummy': '.*向木人告别',
         'You bow courteously to the striking dummy': '.*恭敬地对木人行礼',
@@ -70,6 +74,7 @@ export default {
     },
     {
       locale: "ko",
+      missingTranslations: true,
       replaceSync: {
         'You bid farewell to the striking dummy': '.*나무인형에게 작별 인사를 합니다',
         'You bow courteously to the striking dummy': '.*나무인형에게 공손하게 인사합니다',
