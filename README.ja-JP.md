@@ -30,19 +30,19 @@
   - 全てのトリガーは `export default { ... }`の形でエクスポートされます。
   - カスタムタイムラインをロードするには、`timelineFile` と `overrideTimelineFile` が使えませんので、`timeline: require(タイムラインファイルパス)` でロードしてください。
 
-## TypeScript
+## TypeScript サポート
 
-本プロジェクトには TypeScript を使用することができます、ただし、Cactbot のコードをプロジェクトにインポートすることが必要です。
+本プロジェクトには TypeScript のサポートが組み込まれていますが、Cactbot のソースコードの一部をプロジェクトにインポートする必要があります。
 
 以下のように、`git-submodule` を使用して、Cactbot をプロジェクトにインポートする。
 
-- GitHub から Cactbot のコードをダウンロードする。
+- Cactbot のソースコードを GitHub からをダウンロードする。
 
   ```bash
   $ git submodule add https://github.com/quisquous/cactbot.git cactbot
   ```
 
-- `webpack.config.js` に Cactbot のパスを追加する。
+- `webpack.config.js` に Cactbot へのパスを追加する。
 
   ```js
   externals: {
@@ -50,7 +50,7 @@
     "Options": "Options",
   }
   ```
-- `tsconfig.json` に Cactbot のパスを追加する。
+- `tsconfig.json` に Cactbot へのパスを追加する。
 
   ```jsonc
   "compilerOptions": {
@@ -87,13 +87,13 @@
   export default triggerSet;
   ```
 
-- `Options` の型定義は `@/<モジュール名>/<モジュール名>_options.ts` に記述されている。
+- `Options` の型定義は `@/<モジュール名>/<モジュール名>_options.ts` に記述されており、直接参照することができます。
 
   ```typescript
   import Options from '@/raidboss/raidboss_options';
   ```
 
-## 関連プロジェクト
+## 関連項目
 
   - [quisquous/cactbot](https://github.com/quisquous/cactbot)
   - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
@@ -102,7 +102,7 @@
 
   - 本プロジェクトに関するバグ報告は、[issue](https://github.com/MaikoTan/cactbot-user-template/issues) で提出してください。
 
-      - Cactbot に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/quisquous/cactbot/issues)。
+      - Cactbot 自体に関する報告は [Cactbot のレポジトリに issue を提出してください](https://github.com/quisquous/cactbot/issues)。
 
   - 本プロジェクトに関する改善案は是非とも [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls) で提出してください！
 
