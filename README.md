@@ -9,7 +9,7 @@ This project is a template project for creating Cactbot customized triggers/time
 ## Instructions
 
 1. Download and install [Node.js](https://nodejs.org/en/download/), in normal situation just choose the Windows installer. * If you have already installed it, please skip this step. *.
-1. Download and install[Git](https://git-scm.com/download/win). * If you have already installed it, please skip this step. *.
+1. Download and install [Git](https://git-scm.com/download/win). * If you have already installed it, please skip this step. *.
 1. Click the `Use This Template` button to create a new project under your account.
 1. Run the `git clone <your GitHub account name>/<your project name>.git` command to clone this project locally.
 1. Run the `cd <your project name>` command to enter the project directory.
