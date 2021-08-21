@@ -65,7 +65,7 @@ The following is an example to import cactbot by using the `git-submodule` sub-c
   }
   ```
 
-- Feel free to introduce Cactbot's type.
+- Feel free to import type hints from Cactbot.
 
   ```typescript
   import { Job } from "@/types/job";
