@@ -89,7 +89,7 @@ The following is an example to import cactbot by using the `git-submodule` sub-c
   export default triggerSet;
   ```
 
-- The `Options` type is defined in the `@/<module name>/<module name>_options.ts` file and can be introduced directly.
+- The `Options` type is defined in `@/<module name>/<module name>_options.ts`, which can be referenced directly.
 
   ```typescript
   import Options from '@/raidboss/raidboss_options';
