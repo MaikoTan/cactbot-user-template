@@ -35,7 +35,7 @@ This project is a template project for creating Cactbot customized triggers/time
 
 TypeScript support is available in this project, but you need to import some of Cactbot's source code into the project.
 
-The following is an example of an introduction using the `git-submodule` method：
+The following is an example to import cactbot by using the `git-submodule` sub-command：
 
 - Download Cactbot source code from GitHub
  
