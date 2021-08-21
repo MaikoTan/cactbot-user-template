@@ -110,4 +110,4 @@ The following is an example of an introduction using the `git-submodule` methodï
 
 ## License
 
-MIT license. See [LICENSE](LICENSE) for details.
+This project is published under MIT license. See [LICENSE](LICENSE) for details.
