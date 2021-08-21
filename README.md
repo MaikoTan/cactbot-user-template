@@ -16,7 +16,7 @@ This project is a template project for creating Cactbot customized triggers/time
 1. Install yarn if you haven't already done so: `npm install -g yarn`.
 1. Run `yarn install` to install the required dependencies for the project.
 1. Run the `yarn run build` command to package the project into the `dist` directory.
-1. Start ACT and navigate to `OverlayPlugin > Cactbot > User Folder` and set the path to the project's `dist` directory.
+1. Start ACT and navigate to `OverlayPlugin > Cactbot > User Folder`, set the path to the project's `dist` directory.
 1. Test the project whether it was compiled and loaded successfully by Cactbot.
     - Teleport to the Summerford Farms.
     - Start the test timeline by using the countdown function or emote 'bow' to the dummy.
