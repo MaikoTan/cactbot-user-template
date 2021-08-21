@@ -100,7 +100,7 @@ The following is an example to import cactbot by using the `git-submodule` sub-c
 
 ## Feedback and Support
 
-  - If you find any problems using this project, please submit [issue](https://github.com/MaikoTan/cactbot-user-template/issues) on GitHub.
+  - If you find any problems using this project, please submit an [issue](https://github.com/MaikoTan/cactbot-user-template/issues) on GitHub.
 
       - If the problem is with Cactbot itself, please submit an issue to the [Cactbot repository](https://github.com/quisquous/cactbot/issues).
 
