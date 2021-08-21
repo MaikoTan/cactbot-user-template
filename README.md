@@ -4,8 +4,6 @@ English | [简体中文](README.zh-CN.md)
 
 This project is a template project for creating Cactbot customized triggers/timelines or custom user configurations, extending the scope and possibilities of customization based on the functionality of Cactbot's user folder override.
 
-**Hint** Since this project uses webpack to package all configuration files as *.js files with the corresponding module name, it can work in ACT even with the versions like CafeACT which do not support subfolders.
-
 ## Instructions
 
 1. Download and install [Node.js](https://nodejs.org/en/download/), in normal situation just choose the Windows installer. * If you have already installed it, please skip this step. *.
