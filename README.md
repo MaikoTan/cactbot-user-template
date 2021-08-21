@@ -28,7 +28,7 @@ This project is a template project for creating Cactbot customized triggers/time
   - All trigger files in `raidboss` must be placed in the `data` directory
   - All trigger files must be exported as `export default { ... }`
   - Loading custom timelines cannot use the `timelineFile` and `overrideTimelineFile` properties. There is only `timeline: require(timeline file path)` available currently.
-
+  - All trigger sets must be exported as `export default { ... }`
 ## TypeScript support
 
 TypeScript support is available in this project, but you need to import some of Cactbot's source code into the project.
