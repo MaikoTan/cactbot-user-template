@@ -1,6 +1,6 @@
 # Cactbot User Template
 
-[English](README.md) | 简体中文
+[English](README.md) | 简体中文  | [日本語](README.ja-JP.md)
 
 该项目是一个用于创建 Cactbot 自定义触发器/时间轴或自定义用户配置的模板项目，以 Cactbot 的用户文件夹覆盖的功能为基础扩展了其自定义范围和可能性。
 
