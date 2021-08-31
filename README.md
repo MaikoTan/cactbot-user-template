@@ -95,7 +95,7 @@ The following is an example to import cactbot by using the `git-submodule` sub-c
 
 ## Examples
 
-  -[MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+  - [MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
 
 ## Associated Projects
 

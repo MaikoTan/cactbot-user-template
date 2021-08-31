@@ -97,7 +97,7 @@
 
 ## 示例项目
 
-  -[MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+  - [MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
 
 ## 关联项目
 

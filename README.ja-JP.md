@@ -95,7 +95,7 @@
 
 ## 例
 
-  -[MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+  - [MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
 
 ## 関連項目
 
