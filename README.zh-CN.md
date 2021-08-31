@@ -95,6 +95,10 @@
   import Options from '@/raidboss/raidboss_options';
   ```
 
+## 示例项目
+
+  -[MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+
 ## 关联项目
 
   - [quisquous/cactbot](https://github.com/quisquous/cactbot)

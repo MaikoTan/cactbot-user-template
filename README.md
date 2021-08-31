@@ -93,6 +93,10 @@ The following is an example to import cactbot by using the `git-submodule` sub-c
   import Options from '@/raidboss/raidboss_options';
   ```
 
+## Examples
+
+  -[MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+
 ## Associated Projects
 
   - [quisquous/cactbot](https://github.com/quisquous/cactbot)
