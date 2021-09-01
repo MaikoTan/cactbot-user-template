@@ -1,5 +1,3 @@
-// Rename this file to `jobs.js` and edit it to change the jobs ui.
-
 // Zones to show food buff warning, when at max level.
 Options.WellFedZoneRegex =
   /^(Unknown Zone \([0-9A-Fa-f]+\)|Deltascape.*(Ultimate|Savage).*|.* Coil Of Bahamut.*(Ultimate|Savage).*)|Alexander.*(Ultimate|Savage).*$/;
