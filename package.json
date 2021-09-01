@@ -15,7 +15,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "node_modules/.bin/webpack --config webpack.config.js"
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "watch": "node_modules/.bin/webpack --config webpack.config.js --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
