@@ -31,67 +31,7 @@ This project is a template project for creating Cactbot customized triggers/time
   - All trigger sets must be exported as `export default { ... }`
 ## TypeScript support
 
-TypeScript support is available in this project, but you need to import some of Cactbot's source code into the project.
-
-The following is an example to import cactbot by using the `git-submodule` sub-command：
-
-- Download Cactbot source code from GitHub
- 
-  ```bash
-  $ git submodule add https://github.com/quisquous/cactbot.git cactbot
-  ```
-
-- Set the path to Cactbot in `webpack.config.js`
-
-  ```js
-  externals: {
-    "@": path.resolve(__dirname, 'cactbot'),
-    "Options": "Options",
-  }
-  ```
-
-- Set the path to Cactbot in `tsconfig.json`
-
-  ```jsonc
-  "compilerOptions": {
-    // ...
-    "baseUrl": ".",
-    "paths": {
-      "@": "./cactbot",
-    },
-    // ...
-  }
-  ```
-
-- Feel free to import type hints from Cactbot.
-
-  ```typescript
-  import { Job } from "@/types/job";
-  import Util from '@/resources/util';
-  import ZoneId from '@/resources/zone_id';
-  import { RaidbossData } from '@/types/data';
-  import { TriggerSet } from '@/types/trigger';
-
-  export interface Data extends RaidbossData {
-    // ...
-  }
-
-  const triggerSet: TriggerSet<Data> = {
-    zoneId: ZoneId.MiddleLaNoscea,
-    triggers: [
-      // triggers ...
-    ],
-    // ...
-  };
-
-  export default triggerSet;
-  ```
-
-- The `Options` type is defined in `@/<module name>/<module name>_options.ts`, which can be referenced directly.
-
-  ```typescript
-  import Options from '@/raidboss/raidboss_options';
-  ```
+Use [cactbot-user-typescript-template](https://github.com/MaikoTan/cactbot-user-typescript-template/) instead.
 
 ## Associated Projects
 
