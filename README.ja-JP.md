@@ -32,66 +32,7 @@
 
 ## TypeScript サポート
 
-本プロジェクトには TypeScript のサポートが組み込まれていますが、Cactbot のソースコードの一部をプロジェクトにインポートする必要があります。
-
-以下のように、`git-submodule` を使用して、Cactbot をプロジェクトにインポートする。
-
-- Cactbot のソースコードを GitHub からをダウンロードする。
-
-  ```bash
-  $ git submodule add https://github.com/quisquous/cactbot.git cactbot
-  ```
-
-- `webpack.config.js` に Cactbot へのパスを追加する。
-
-  ```js
-  externals: {
-    "@": path.resolve(__dirname, 'cactbot'),
-    "Options": "Options",
-  }
-  ```
-- `tsconfig.json` に Cactbot へのパスを追加する。
-
-  ```jsonc
-  "compilerOptions": {
-    // ...
-    "baseUrl": ".",
-    "paths": {
-      "@": "./cactbot",
-    },
-    // ...
-  }
-  ```
-
-- Cactbot の型定義に楽しめよう！
-
-  ```typescript
-  import { Job } from "@/types/job";
-  import Util from '@/resources/util';
-  import ZoneId from '@/resources/zone_id';
-  import { RaidbossData } from '@/types/data';
-  import { TriggerSet } from '@/types/trigger';
-
-  export interface Data extends RaidbossData {
-    // ...
-  }
-
-  const triggerSet: TriggerSet<Data> = {
-    zoneId: ZoneId.MiddleLaNoscea,
-    triggers: [
-      // triggers ...
-    ],
-    // ...
-  };
-
-  export default triggerSet;
-  ```
-
-- `Options` の型定義は `@/<モジュール名>/<モジュール名>_options.ts` に記述されており、直接参照することができます。
-
-  ```typescript
-  import Options from '@/raidboss/raidboss_options';
-  ```
+[cactbot-user-typescript-template](https://github.com/MaikoTan/cactbot-user-typescript-template/) を使用してください。
 
 ## 例
 

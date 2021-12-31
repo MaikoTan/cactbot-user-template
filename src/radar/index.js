@@ -1,4 +1,3 @@
-// Rename this file to `radar.js` and edit it to change the radar ui.
 // This file is Javascript.  Anything after "//" on a line is a comment.
 // If you edit this file, remember to reload ACT or click the "Reload overlay"
 // button on the raidboss CactbotOverlay.

@@ -4,8 +4,12 @@ const webpack = require("webpack");
 module.exports = {
   mode: "production",
   entry: {
+    dps: "./src/dps/index.js",
+    eureka: "./src/eureka/index.js",
+    fisher: "./src/fisher/index.js",
     jobs: "./src/jobs/index.js",
     oopsyraidsy: "./src/oopsyraidsy/index.js",
+    pullcounter: "./src/pullcounter/index.js",
     radar: "./src/radar/index.js",
     raidboss: "./src/raidboss/index.js",
   },
@@ -30,7 +34,6 @@ module.exports = {
                   },
                 },
               ],
-              ["@babel/preset-typescript"],
             ],
           },
         },
