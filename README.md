@@ -33,6 +33,10 @@ This project is a template project for creating Cactbot customized triggers/time
 
 Use [cactbot-user-typescript-template](https://github.com/MaikoTan/cactbot-user-typescript-template/) instead.
 
+## Examples
+
+  - [MaikoTan/cactbot-user](https://github.com/MaikoTan/cactbot-user)
+
 ## Associated Projects
 
   - [quisquous/cactbot](https://github.com/quisquous/cactbot)
