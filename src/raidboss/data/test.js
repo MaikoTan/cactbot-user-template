@@ -1,6 +1,8 @@
 export default {
   zoneId: ZoneId.MiddleLaNoscea,
-  timeline: require("./test.txt"),
+  // timeline: require("./test.txt"),
+  timelineFile: "test.txt",
+  overrideTimelineFile: true,
   triggers: [
     {
       id: "User Custom Test",

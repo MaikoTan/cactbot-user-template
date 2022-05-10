@@ -1,6 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
+const CopyPlugin = require("copy-webpack-plugin");
 
+/** @type {webpack.Configuration} */
 module.exports = {
   mode: "production",
   entry: {
@@ -14,6 +16,7 @@ module.exports = {
     raidboss: "./src/raidboss/index.js",
   },
   output: {
+    assetModuleFilename: "[name].[hash:8][ext]",
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
   },
@@ -38,14 +41,17 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.txt$/,
-        exclude: /node_modules/,
-        type: 'asset/source',
-      },
     ],
   },
   plugins: [
     new webpack.CleanPlugin(),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "./src/raidboss/data/**/*.txt",
+          to: "./[name][ext]",
+        },
+      ],
+    }),
   ],
 };
