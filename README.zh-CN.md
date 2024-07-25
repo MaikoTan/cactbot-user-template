@@ -1,6 +1,6 @@
 # Cactbot User Template
 
-[English](README.md) | 简体中文  | [日本語](README.ja-JP.md)
+[English](README.md) | 简体中文 | [日本語](README.ja-JP.md)
 
 该项目是一个用于创建 Cactbot 自定义触发器/时间轴或自定义用户配置的模板项目，以 Cactbot 的用户文件夹覆盖的功能为基础扩展了其自定义范围和可能性。
 
@@ -22,9 +22,14 @@
     - 使用倒计时功能或向木人行礼以启动测试时间轴。
     - 在聊天栏键入 `/e test user` 并回车，观察是否有文字及 TTS 提示。
 
+### 提示
+
+每次修改代码后都应当运行 `yarn run build` 构建代码到 `dist` 目录。
+
+也可以使用 `yarn run watch` 命令监听修改，会在每次修改源代码后自动构建并更新代码。
 ## 与Cactbot的不同
 
-- 所有模块的默认配置入口都是 `src/<模块名>/index.js`
+- 所有模块的默认配置入口都是 `src/<模块名>/index.js`，因此你可以将代码拆分为多个文件，然后在 `index.js` 中导入。
 
 ### Raidboss 模块
 

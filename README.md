@@ -20,9 +20,15 @@ This project is a template project for creating Cactbot customized triggers/time
     - Start the test timeline by using the "/countdown" command or "/bow" to the striking dummy.
     - Type `/e test user` in the chat window to ensure the functions are working properly.
 
+### Note
+
+Every time you changed source files, you should run `yarn run build` to update the code in the `dist` directory.
+
+You can also use `yarn run watch`, which will automatically update the code in the `dist` directory when you change any file.
+
 ## Differences from Cactbot
 
-- The default configuration entry for all modules is `src/<module name>/index.js`
+- Default configuration entry for all modules is `src/<module name>/index.js`, so that you can split your code into multiple files and import them into `index.js`.
 
 ### Raidboss module
 
