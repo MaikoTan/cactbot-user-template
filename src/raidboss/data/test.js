@@ -22,8 +22,10 @@ export default {
       locale: "de",
       missingTranslations: true,
       replaceSync: {
-        'You bid farewell to the striking dummy': 'Du winkst der Trainingspuppe zum Abschied zu',
-        'You bow courteously to the striking dummy': 'Du verbeugst dich hochachtungsvoll vor der Trainingspuppe',
+        "You bid farewell to the striking dummy":
+          "Du winkst der Trainingspuppe zum Abschied zu",
+        "You bow courteously to the striking dummy":
+          "Du verbeugst dich hochachtungsvoll vor der Trainingspuppe",
       },
       replaceText: {
         "If you see this": "Wenn Sie dies sehen",
@@ -36,8 +38,10 @@ export default {
       locale: "fr",
       missingTranslations: true,
       replaceSync: {
-        'You bid farewell to the striking dummy': 'Vous faites vos adieux au mannequin d\'entraînement',
-        'You bow courteously to the striking dummy': 'Vous vous inclinez devant le mannequin d\'entraînement',
+        "You bid farewell to the striking dummy":
+          "Vous faites vos adieux au mannequin d'entraînement",
+        "You bow courteously to the striking dummy":
+          "Vous vous inclinez devant le mannequin d'entraînement",
       },
       replaceText: {
         "If you see this": "Si vous voyez ceci",
@@ -50,8 +54,8 @@ export default {
       locale: "ja",
       missingTranslations: true,
       replaceSync: {
-        'You bid farewell to the striking dummy': '.*は木人に別れの挨拶をした',
-        'You bow courteously to the striking dummy': '.*は木人にお辞儀した',
+        "You bid farewell to the striking dummy": ".*は木人に別れの挨拶をした",
+        "You bow courteously to the striking dummy": ".*は木人にお辞儀した",
       },
       replaceText: {
         "If you see this": "おめでとう！",
@@ -64,8 +68,8 @@ export default {
       locale: "cn",
       missingTranslations: true,
       replaceSync: {
-        'You bid farewell to the striking dummy': '.*向木人告别',
-        'You bow courteously to the striking dummy': '.*恭敬地对木人行礼',
+        "You bid farewell to the striking dummy": ".*向木人告别",
+        "You bow courteously to the striking dummy": ".*恭敬地对木人行礼",
       },
       replaceText: {
         "If you see this": "当你看到此处",
@@ -78,8 +82,10 @@ export default {
       locale: "ko",
       missingTranslations: true,
       replaceSync: {
-        'You bid farewell to the striking dummy': '.*나무인형에게 작별 인사를 합니다',
-        'You bow courteously to the striking dummy': '.*나무인형에게 공손하게 인사합니다',
+        "You bid farewell to the striking dummy":
+          ".*나무인형에게 작별 인사를 합니다",
+        "You bow courteously to the striking dummy":
+          ".*나무인형에게 공손하게 인사합니다",
       },
       replaceText: {
         "If you see this": "이것을 보는 사람은",

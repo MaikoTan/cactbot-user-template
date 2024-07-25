@@ -7,10 +7,10 @@ Options.WellFedZoneRegex =
 Options.MaxLevel = 80;
 
 // List of jobs to show an hp value for (defaults to tanks).
-Options.ShowHPNumber = ['PLD', 'WAR', 'DRK', 'GNB'];
+Options.ShowHPNumber = ["PLD", "WAR", "DRK", "GNB"];
 
 // List of jobs to show an mp value for.
-Options.ShowMPNumber = ['BLM', 'DRK'];
+Options.ShowMPNumber = ["BLM", "DRK"];
 
 // The recast time for Aetherflow.
 Options.SmnAetherflowRecast = 60;
@@ -28,7 +28,7 @@ Options.PldLowMPThreshold = 2880;
 Options.BlmLowMPThreshold = 2400;
 
 const kRed =
-  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAySURBVEhL7c0xEQAgDAAxhHSsf2d4QMJPbLnLnnNnvxIkQRIkQRIkQRIkQRIkQfoczD4cGLQ9QOmZGwAAAABJRU5ErkJggg==';
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAySURBVEhL7c0xEQAgDAAxhHSsf2d4QMJPbLnLnnNnvxIkQRIkQRIkQRIkQRIkQfoczD4cGLQ9QOmZGwAAAABJRU5ErkJggg==";
 
 // Remove these /* and */ comment lines to enable the example code below.
 /*
