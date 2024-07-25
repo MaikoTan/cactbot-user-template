@@ -1,3 +1,5 @@
+import triggers from "./data";
+
 // This file is Javascript.  Anything after "//" on a line is a comment.
 // If you edit this file, remember to reload ACT or click the "Reload overlay"
 // button on the raidboss overlay.
@@ -32,8 +34,4 @@ Options.PlayerNicks = {
 };
 
 // Add triggers in `data/` recursively.
-const context = require.context("./data", true, /.*\.(ts|js|tsx)$/);
-context.keys().forEach((key) => {
-  const triggerFile = context(key);
-  Options.Triggers.push(triggerFile.default);
-});
+Options.Triggers.push(...triggers);
