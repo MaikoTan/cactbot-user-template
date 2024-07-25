@@ -4,7 +4,7 @@
 
 该项目是一个用于创建 Cactbot 自定义触发器/时间轴或自定义用户配置的模板项目，以 Cactbot 的用户文件夹覆盖的功能为基础扩展了其自定义范围和可能性。
 
-**提示** 由于该项目使用了 webpack 将所有配置文件打包为以对应的模块名为文件名的 js 文件，因此即便使用 CafeACT 等不支持子文件夹的版本也可以正常使用。
+**提示** 由于该项目使用了 rollup 将所有配置文件打包为以对应的模块名为文件名的 js 文件，因此即便使用 CafeACT 等不支持子文件夹的版本也可以正常使用。
 
 ## 使用说明
 
@@ -41,14 +41,14 @@
 
 ## 关联项目
 
-- [quisquous/cactbot](https://github.com/quisquous/cactbot)
+- [OverlayPlugin/cactbot](https://github.com/OverlayPlugin/cactbot)
 - [quisquous/cactbot-user](https://github.com/quisquous/cactbot-user)
 
 ## 问题反馈与支持
 
 - 如果您在使用本项目中发现任何问题，请在 GitHub 上提交 [issue](https://github.com/MaikoTan/cactbot-user-template/issues)。
 
-  - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/quisquous/cactbot/issues)。
+  - 如果是 Cactbot 本身的问题，请在 [Cactbot 仓库中提交 issue](https://github.com/OverlayPlugin/cactbot/issues)。
 
 - 如果您有更好的建议，请在 GitHub 上提交 [pull request](https://github.com/MaikoTan/cactbot-user-template/pulls)。
 

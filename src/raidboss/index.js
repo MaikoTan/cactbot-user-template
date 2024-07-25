@@ -3,7 +3,7 @@
 // button on the raidboss overlay.
 // If there are errors in this file, they will appear in the OverlayPlugin.dll
 // log window in ACT.
-// See: http://github.com/quisquous/cactbot/blob/main/docs/CactbotCustomization.md#check-the-overlayplugin-log-for-errors
+// See: http://github.com/OverlayPlugin/cactbot/blob/main/docs/CactbotCustomization.md#check-the-overlayplugin-log-for-errors
 
 // Path to sound played for info-priority text popups, or when "Info" is
 // specified as the sound name.
@@ -25,7 +25,7 @@ Options.LongSound = "../../resources/sounds/BigWigs/Long.ogg";
 Options.PullSound = "../../resources/sounds/freesound/sonar.ogg";
 
 // A set of nicknames to use for players, when trying to shorten names.
-// See: https://github.com/quisquous/cactbot/blob/main/docs/CactbotCustomization.md#customizing-behavior
+// See: https://github.com/OverlayPlugin/cactbot/blob/main/docs/CactbotCustomization.md#customizing-behavior
 Options.PlayerNicks = {
   "Captain Jimmy": "Jimmy",
   "Pipira Pira": "Fish",
